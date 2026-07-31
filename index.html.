@@ -1,0 +1,159 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zion Apparel</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#111;
+color:white;
+}
+
+header{
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:black;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7));
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+button{
+padding:15px 35px;
+font-size:18px;
+border:none;
+background:white;
+color:black;
+border-radius:30px;
+cursor:pointer;
+}
+
+.products{
+padding:60px 20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e1e1e;
+padding:20px;
+border-radius:15px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.price{
+margin:15px 0;
+font-size:22px;
+font-weight:bold;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:black;
+margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">ZION APPAREL</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+<h1>Wear Confidence.</h1>
+
+<p>Premium Streetwear Built For Everyday.</p>
+
+<button>Shop Now</button>
+</section>
+
+<section class="products">
+
+<div class="card">
+<img src="https://picsum.photos/300/300?1">
+<h2>Black Hoodie</h2>
+<div class="price">$200.99</div>
+<button>Buy</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/300?2">
+<h2>Oversized Tee</h2>
+<div class="price">$134.99</div>
+<button>Buy</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/300?3">
+<h2>Cargo Pants</h2>
+<div class="price">$69.99</div>
+<button>Buy</button>
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Zion Apparel
+
+</footer>
+
+</body>
+</html>
